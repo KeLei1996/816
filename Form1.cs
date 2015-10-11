@@ -20,7 +20,7 @@ namespace SVGFormTest
             //ScriptMessageManager.Instance.SetWebbrowser(webBrowser1);
 
             //ScriptMessageManager.SwitchClick += On_SwitchClick;
-            webBrowser1.ObjectForScripting = this;
+            //webBrowser1.ObjectForScripting = this;
 		}
 
 		private void 弹框ToolStripMenuItem_Click(object sender, EventArgs e)
