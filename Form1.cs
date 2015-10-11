@@ -109,7 +109,7 @@ namespace SVGFormTest
         //断路器关闭，只需输入相应断路器ID以实现
         void CircuitBreakerClose(String id)
         {
-            this.webBrowser1.Document.InvokeScript("BackId_function", new string[] { id });
+            //this.webBrowser1.Document.InvokeScript("BackId_function", new string[] { id });
         }
     }
 }
